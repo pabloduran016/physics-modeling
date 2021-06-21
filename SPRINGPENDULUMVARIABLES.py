@@ -1,0 +1,32 @@
+N = 1
+GRAVITY = 0.2
+WIDTH = 800
+HEIGHT = 800
+TITLE = 'Langrnagian Sring Pendulum'
+FPS = 120
+WHITE = (255, 255, 255, 255)
+BLACK = (0, 0, 0, 255)
+YELLOW = (255, 255, 0, 255)
+GREEN = (0, 255, 0, 255)
+RED = (255, 0, 0, 255)
+BLUE = (0, 0, 255, 255)
+LIGHTBLUE = (100, 100, 255, 255)
+PIVOT_R = 10
+PIVOT = (400, 200)
+BOB_R = 20
+BOB_M = 1
+INITIALS = [(100, 3.14, 20, 30), (100, 3.14, 20, 30), (100, 3.14, 20, 30), (100, 3.14, 20, 30), (100, 3.14, 20, 30),
+            (100, 3.14, 20, 30)]
+SPRING_W = 5
+SPRING_K = 0.005
+a = .5
+SPRING_DOTS = [(0, 1), (a/2, 0.5), (-a, 0.5), (a, 0.5), (-a, 0.5), (a, 0.5), (-a, 0.5), (a, 0.5), (-a, 0.5),
+               (a, 0.5), (-a/2, 0.5), (0, 1)]
+SPRING_COLOR = BLACK
+SPRING_NODES = 20
+SPRING_A = 50
+P_DESINTEGRATION = 1
+PARTICLE_WIDTH = 3
+SELECTION_THREASHOLD = 10
+FRICTION = 0.1
+N_BALLS = 2
